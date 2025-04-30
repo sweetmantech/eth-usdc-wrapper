@@ -11,7 +11,6 @@ import {IUniswapV3Pool} from "./interfaces/IUniswapV3Pool.sol";
 
 /// @title InProcessEthUsdcWrapper
 contract InProcessEthUsdcWrapper {
-    error ETHWithdrawFailed();
     address private owner;
 
     constructor() {
